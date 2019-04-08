@@ -65,7 +65,7 @@ public class ExpressionTree{
       return "" + getValue();
     }
     else {
-      return getOp() + " " + getLeft().toStringPostfix () + " " + getRight().toStringPostfix ();
+      return getOp() + " " + getLeft().toStringPrefix () + " " + getRight().toStringPrefix ();
     }
   }
 
